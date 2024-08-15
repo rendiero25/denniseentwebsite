@@ -1,0 +1,15 @@
+{
+  "name": "webdenniseent",
+  "version": "1.0.0",
+  "description": "website dennise entertainment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i src/input.css -o dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rendiero",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}
