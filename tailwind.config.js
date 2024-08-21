@@ -7,12 +7,17 @@ module.exports = {
     fontFamily: {
       primary: ["Overpass", "sans-serif"]
     },
-    boxShadow: {
-      shadowButton: "box-shadow: 47px 78px 149px 0px rgba(0,0,0,0.36)"
-    },
-    keyframes: {
-      move: "0% {right: -100%;} 100% {left: 100%;}"
-    },
+    extend: {
+      keyframes: {
+        'slide-left': {
+          '0%': { transform: 'translateX(1%)'},
+          '100%': {transform: 'translateX(-1%)'},
+        }
+      },
+      animation: {
+        'slide-left': 'slide-left 50s linear infinite',
+      }
+    }
   },
   extend: {
   },
