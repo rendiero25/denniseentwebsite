@@ -15,7 +15,7 @@ module.exports = {
         }
       },
       animation: {
-        'slide-left': 'slide-left 50s linear infinite',
+        'slide-left': 'slide-left 5s linear infinite',
       }
     }
   },
