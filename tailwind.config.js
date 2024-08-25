@@ -16,7 +16,11 @@ module.exports = {
       },
       animation: {
         'slide-left': 'slide-left 5s linear infinite',
-      }
+      },
+      colors: {
+        'grayhex': '#A9A5A5',
+        'greenhex': '#E1ECE4',
+      },
     }
   },
   extend: {
